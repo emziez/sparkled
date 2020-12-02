@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* earrings and rings css */
+
+html{
+	background-image: url("background images/stars.jpg");
+	width: auto;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 50px;
+}
+
+::-webkit-scrollbar{
+	width: 8px;
+	background-color: lightslategrey;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #D98485;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: #9E6566;
+}
+
+.logo{
+	font-family: 'Great Vibes', cursive;
+	align-content: center;
+	text-align: center;
+	font-size: 70px;
+	color: #C6595A;
+}
+
+.logo a:link, a:visited{
+	color: #754040;
+	text-decoration: none;
+	transition: 0.8s;
+}
+
+logo  a:hover, a:active{
+	color: #754040;
+	text-decoration: none;
+	transition: 0.8s;
+}
+
+#navi li{
+	text-align: center;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	color: #C6595A;
+	text-decoration: none;
+	list-style-type: none;
+	align-content: center;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.table{
+	margin-left: 210px;
+}
+
+#navi a:link, a:visited{
+	font-family: 'Raleway', sans-serif;
+	color: #C6595A;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	transition: 0.8s;
+}
+
+#navi a:hover, a:active{
+	font-family: 'Raleway', sans-serif;
+	color: #754040;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	transition: 0.8s;
+}
+
+.table:before{
+	width: 100%;
+	height: 0%;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.images5{
+	padding-left: 75px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.images3{
+	padding-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.images4{
+	padding-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.images1{
+	padding-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.images2{
+	padding-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.column{
+	float: left;
+	width: 25%;
+	transition: transform 0.5s;
+}
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column h4{
+	font-family: 'Raleway', sans-serif;
+	color: #C6595A;
+}
+
+.column h5{
+	font-family: 'Raleway', sans-serif;
+	color: #C6595A;
+}
+
+.column:hover{
+	transform: translateY(-7px)
+}
+
+.btn{
+	border: 1px solid;
+	border-color: #B1585A;
+	background: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #C6595A;
+	cursor: pointer;
+	transition: 0.8s;
+	float: right;
+}
+
+.btn:hover {
+	color: #754040;
+}
+
+.btn:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background:url("resized background images/glittered 1.jpg");
+	z-index: -1;
+	transition: 0.8s;
+}
+
+footer{
+	object-position: bottom;
+	align-content: center;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	margin-top: 170px;
+}
+

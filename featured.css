@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* Featured CSS */
+
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	margin: 20px 50px 10px 50px;
+	background-image: url("background images/stars.jpg");
+}
+
+
+::-webkit-scrollbar{
+	width: 8px;
+	background-color: lightslategrey;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #D98485;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: #9E6566;
+}
+
+.logo{
+	font-family: 'Great Vibes', cursive;
+	align-content: center;
+	text-align: center;
+	font-size: 70px;
+	color: #C6595A;
+}
+
+.logo a:link, a:visited{
+	color: #754040;
+	text-decoration: none;
+	transition: 0.8s;
+}
+
+logo  a:hover, a:active{
+	color: #754040;
+	text-decoration: none;
+	transition: 0.8s;
+}
+
+#navi li{
+	text-align: center;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	color: #C6595A;
+	text-decoration: none;
+	list-style-type: none;
+	align-content: center;
+	margin-left: 40px;
+}
+
+
+#navi a:link, a:visited{
+	font-family: 'Raleway', sans-serif;
+	color: #C6595A;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	transition: 0.8s;
+}
+
+#navi a:hover, a:active{
+	font-family: 'Raleway', sans-serif;
+	color: #754040;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	transition: 0.8s;
+}
+
+.table{
+	margin-left: 140px;
+}
+
+.table:before{
+	width: 100%;
+	height: 0%;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.w3-content {
+	float: left;
+	margin: 90px 50px 20px 100px;
+	padding-top: 30px;
+}
+
+.earrings{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin-top: 200px;
+	margin-left: 40px;
+	margin-right: 50px;
+	color: #C6595A;
+	text-align: justify;
+}
+
+.container{
+	text-align: center;
+	margin-top: 120px;
+	align-items: center;
+}
+
+.btn{
+	border: 1px solid;
+	border-color: #B1585A;
+	background: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #C6595A;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.btn:hover {
+	color: #D52A2D;
+}
+
+.btn:before{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background:url("resized background images/glittered 1.jpg");
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.necklaces{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin-top: 300px;
+	margin-left: 50px;
+	margin-right: 40px;
+	color: #C6595A;
+	text-align: justify;
+}
+
+.box2{
+	float: right;
+	margin: 40px 100px 20px 50px;
+	padding-top: 30px;
+}
+
+.footer{
+	object-position: relative;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	margin-top: 150px;
+	clear: both;
+}
